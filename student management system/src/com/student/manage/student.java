@@ -6,7 +6,6 @@ public class student {
 	private String studentName;
 	private String studentPhone;
 	private String studentCity;
-	
 
 	public int getStudentId() {
 		return studentId;
@@ -65,6 +64,5 @@ public class student {
 		return "student [studentId=" + studentId + ", studentName=" + studentName + ", studentPhone=" + studentPhone
 				+ ", studentCity=" + studentCity + "]";
 	}
-	
-	
+
 }
